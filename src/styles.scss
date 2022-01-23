@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body{
+  background-color: #2d5671;
+  color: white;
+}
+
+.affiche{
+  width:150px;
+  height: 220px;
+  border: 2px solid silver;
+}
+
+.played img{
+  width:50px;
+}
+button{
+  margin:20px;
+}
+

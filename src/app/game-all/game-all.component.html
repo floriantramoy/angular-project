@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-3 liste" *ngFor="let game of games; let i = index">
+    <a [routerLink]="['/details', game.id]">
+    <div class="item">
+        <img class="img" [src]="game.image"/>
+        <div class="game" [ngModel]="game.name">{{game.name}} </div>
+    </div>
+    </a>
+  </div>
+</div>
+
+
+

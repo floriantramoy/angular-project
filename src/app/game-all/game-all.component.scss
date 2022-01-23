@@ -1,0 +1,28 @@
+.img{
+  width:250px;
+  height: 380px;
+}
+
+.liste{
+  margin-top: 50px;
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  text-decoration-color: black;
+  color: black;
+  :hover{
+    background-color: darkgoldenrod;
+  }
+}
+
+
+.item{
+  border: 1px solid black;
+  width:252px;
+  height: 430px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #7e9497;
+  }

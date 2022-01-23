@@ -1,0 +1,13 @@
+<ul class="list-group" *ngIf="games">
+  <app-game *ngFor="let game of games; let i = index"
+            [gameName]="game.name"
+            [gamePlayed]="game.played"
+            [gameAffiche]="game.image"
+            [gameDate] ="game.date"
+            [gameDescription]="game.description"
+            [gameNote]="game.note"
+            [gameBibliotheque]="game.bibliotheque"
+            [id]="game.id"></app-game>
+</ul>
+
+
